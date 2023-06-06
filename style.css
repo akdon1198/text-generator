@@ -1,0 +1,110 @@
+.navbar{
+    height: 5rem;
+    background-color: #7f8c8d;
+    display: flex;
+}
+.color-cont{
+    height: 4rem;
+    width: 30rem;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.4rem;
+}
+textarea{
+    height: 100%;
+    width: 75%;
+    resize: none;
+    border: none;
+    outline: none;
+    background-color: #ecf0f1;
+}
+.set-priority-col{
+    height: 4rem;
+    width: 4rem;
+    background-color: coral;
+}
+.set-priority-col-cont{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.border{
+    border: 3px solid white;
+}
+.ticket-cont{
+    background-color: lightgreen;
+    height: 12rem;
+    width: 12rem;
+    margin: 1rem;
+}
+.task-cont{
+    height: calc(100% - 4rem - 2rem);  
+    outline: none;  
+}
+.ticket-color{
+    background-color: #7f8c8d;
+    height: 2rem;
+}
+.id-cont{
+    height: 2rem;
+}
+.module{
+    height: 30rem;
+    width: 30rem;
+    background-color: chartreuse;
+    position: absolute;
+    top : calc((100vh - 30rem - 5rem));
+    left : calc((200vh - 30rem) / 2);
+    display: flex;
+}
+.lock-icon{
+    height: 2rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.add-button{
+    font-size: 3rem;
+}
+.remove-button{
+    font-size: 3rem;
+}
+.action-button :hover{
+    background-color: blanchedalmond;
+}
+.action-button{
+    height: 4rem;
+    width: 5rem;
+    background-color: #bdc3c7;
+    margin: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.priority-col{
+    height: 2rem;
+    width: 5rem;
+    background-color: brown;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
